@@ -9,9 +9,9 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CATEGORIES"
+        android:layout_width="128dp"
+        android:layout_height="28dp"
+        android:text="QUIZ CATEGORIES"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
