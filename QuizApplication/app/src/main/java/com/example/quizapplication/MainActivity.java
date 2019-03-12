@@ -12,12 +12,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button signup = (Button) findViewById(R.id.SignUp);
+        Button signup = (Button) findViewById(R.id.signup);
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent ini = new Intent(MainActivity.this, SignUp.class);
-                startActivityForResult(ini,1);
+                startActivity(ini);
             }
         });
     }
