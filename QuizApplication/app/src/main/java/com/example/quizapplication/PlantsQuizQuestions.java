@@ -12,7 +12,7 @@ public class PlantsQuizQuestions extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plants_quiz_questions);
-        Button plantscore = (Button) findViewById(R.id.finishbutton3);
+        Button plantscore = (Button) findViewById(R.id.finishbutton2);
         plantscore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

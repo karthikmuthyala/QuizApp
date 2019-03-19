@@ -12,7 +12,7 @@ public class FlagQuizQuestions extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flag_quiz_questions);
-        Button flagscore = (Button) findViewById(R.id.finishbutton);
+        Button flagscore = (Button) findViewById(R.id.finishbutton2);
 
         flagscore.setOnClickListener(new View.OnClickListener() {
             @Override
