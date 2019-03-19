@@ -10,7 +10,9 @@
     <TextView
         android:id="@+id/scorebutton"
         android:layout_width="209dp"
-        android:layout_height="51dp"
+        android:layout_height="66dp"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
         android:text="Your Score "
         android:textColor="@android:color/black"
         android:textSize="36sp"
@@ -25,11 +27,17 @@
         android:id="@+id/retake"
         android:layout_width="158dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
+        android:padding="16dp"
         android:text="Retake"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.569"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.653" />
+        app:layout_constraintVertical_bias="0.654" />
 </android.support.constraint.ConstraintLayout>
