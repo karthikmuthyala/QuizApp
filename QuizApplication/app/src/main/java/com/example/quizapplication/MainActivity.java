@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -53,6 +54,14 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("password1"+password.getText().toString());
                     Intent ini = new Intent(MainActivity.this, Categories.class);
                     startActivity(ini);
+                }
+                else if((userName.getText().toString().equals("")))
+                {
+                    Toast.makeText( MainActivity.this, "Enter UserName ", Toast.LENGTH_SHORT ).show();
+                }
+                else if((password.getText().toString().equals("")))
+                {
+                    Toast.makeText( MainActivity.this, "Enter Password ", Toast.LENGTH_SHORT ).show();
                 }
 
 
