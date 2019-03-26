@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -25,8 +26,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button signup = (Button) findViewById(R.id.signup);
+        Button signup    = (Button) findViewById(R.id.signup);
         Button categories = (Button) findViewById(R.id.SignIn);
+       TextView userName = (TextView)findViewById(R.id.UserName);
+       TextView password = (TextView)findViewById(R.id.Password);
+
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,8 +43,19 @@ public class MainActivity extends AppCompatActivity {
         categories.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ini = new Intent(MainActivity.this, Categories.class);
-                startActivity(ini);
+                TextView userName = (TextView)findViewById(R.id.UserName);
+                TextView password = (TextView)findViewById(R.id.Password);
+                System.out.println("userName"+userName.getText().toString());
+                System.out.println("password"+password.getText().toString());
+                if(!(userName.getText().toString().equals("")) &  !(password.getText().toString().equals("")))
+                {
+                    System.out.println("userName1"+userName.getText().toString());
+                    System.out.println("password1"+password.getText().toString());
+                    Intent ini = new Intent(MainActivity.this, Categories.class);
+                    startActivity(ini);
+                }
+
+
             }
         });
 
