@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Categories extends AppCompatActivity {
 
@@ -15,7 +16,10 @@ public class Categories extends AppCompatActivity {
         Button flag = (Button) findViewById(R.id.button1);
         Button animals = (Button) findViewById(R.id.button2);
         Button plants = (Button) findViewById(R.id.button3);
-
+        TextView tv=(TextView)findViewById(R.id.textView2);
+        Intent ini1=getIntent();
+        String nameValue="Hi "+ini1.getStringExtra("name")+" !";
+        tv.setText(nameValue);
         flag.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

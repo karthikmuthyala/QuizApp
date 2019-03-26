@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                     System.out.println("userName1"+userName.getText().toString());
                     System.out.println("password1"+password.getText().toString());
                     Intent ini = new Intent(MainActivity.this, Categories.class);
+                    ini.putExtra("name",userName.getText().toString());
                     startActivity(ini);
                 }
                 else if((userName.getText().toString().equals("")))
