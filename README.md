@@ -17,11 +17,19 @@ There are various users who are taking the quizzes in various fields to improve 
 1.	Initial page consists of the SIGN IN page which contains username and password.
 ![1](https://github.com/mounikrishna/QuizApp/blob/master/App%20Screenshots/LoginPage.JPG)
 2.	If the user not having the account they can sign up in the SIGN UP page.
-3.	After SIGN IN the user will be redirected to the quiz CATEGORIES page where the user can select which type of quiz he/she want to take.
-4.	The user can take the quiz that which the user selected and contains 20 questions. And the page having the questions with multiple answers.
-5.	Each time the question submits randomly another questions are generated. Once the quiz is completed the scores will be visible.
-6. The user can be able to overview the quiz for the answers and the user can retake the quiz by clicking on the retake button.
-7. There is an lifetime statistics for the user, where the user scores with the bar garphs are available in the application. This can be seen by using statistics button.
+![2](https://github.com/mounikrishna/QuizApp/blob/master/App%20Screenshots/SignUppage.JPG)
+3. Once the user gets logged-in the Welcome page appears.
+![3]()
+4.	After Welcome page the user will be redirected to the CATEGORIES page where the user can select which type of quiz he/she want to take.
+![4]()
+5.	The user can take the quiz that which the user selected and contains 20 questions with multiple answers where these questions are randomly generated.
+![5]()
+6.	Once the quiz is completed the scores will be visible.
+![6]()
+7. The user can be able to overview the quiz for the answers and the user can retake the quiz by clicking on the retake button.
+![7]()
+8. There is an lifetime statistics for the user, where the user scores with the bar garphs are available in the application. This can be seen by using statistics button.
+![8]()
 
 # Components Used:
 
