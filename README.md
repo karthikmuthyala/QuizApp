@@ -15,7 +15,7 @@ There are various users who are taking the quizzes in various fields to improve 
 # Activities involved:
 
 1.	Initial page consists of the SIGN IN page which contains username and password.
-![1] (https://raw.githubusercontent.com/mounikrishna/QuizApp/master/App%20Screenshots/SignUppage.JPG)
+![1](https://github.com/mounikrishna/QuizApp/blob/master/App%20Screenshots/LoginPage.JPG)
 2.	If the user not having the account they can sign up in the SIGN UP page.
 3.	After SIGN IN the user will be redirected to the quiz CATEGORIES page where the user can select which type of quiz he/she want to take.
 4.	The user can take the quiz that which the user selected and contains 20 questions. And the page having the questions with multiple answers.
