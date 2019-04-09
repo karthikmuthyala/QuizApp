@@ -19,7 +19,7 @@ There are various users who are taking the quizzes in various fields to improve 
 2.	If the user not having the account they can sign up in the SIGN UP page.
 ![2](https://github.com/mounikrishna/QuizApp/blob/master/App%20Screenshots/SignUppage.JPG)
 
-3. Once the user gets logged-in the Welcome page appears.
+3. Once the user gets logged-in into the application the Welcome page appears.
 ![3](https://github.com/mounikrishna/QuizApp/blob/master/App%20Screenshots/welcomepage.JPG)
 
 4.	After Welcome page the user will be redirected to the CATEGORIES page where the user can select which type of quiz he/she want to take.
@@ -30,7 +30,7 @@ There are various users who are taking the quizzes in various fields to improve 
 
 ![5](https://github.com/mounikrishna/QuizApp/blob/master/App%20Screenshots/QuestionsPage.JPG)
 
-6.	Once the quiz is completed the scores will be visible.
+6.	Once the quiz is completed the scores will be visible on the scorepage.
 ![6](https://github.com/mounikrishna/QuizApp/blob/master/App%20Screenshots/ResultPage.JPG)
 
 7. The user can be able to overview the quiz for the answers and the user can retake the quiz by clicking on the retake button.
