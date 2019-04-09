@@ -1,0 +1,1189 @@
+[
+  {
+    "questions1": [
+      {
+        "answers": [
+          {
+            "answer": "1972",
+            "threshold": 1
+          },
+          {
+            "answer": "1980",
+            "threshold": 0
+          },
+          {
+            "answer": "1967",
+            "threshold": 0
+          },
+          {
+            "answer": "1976",
+            "threshold": 0
+          }
+        ],
+        "question": "C Programming was created in Year _______"
+      },
+      {
+        "answers": [
+          {
+            "answer": "BASIC",
+            "threshold": 0
+          },
+          {
+            "answer": "PASCAL",
+            "threshold": 0
+          },
+          {
+            "answer": "BCPL",
+            "threshold": 0
+          },
+          {
+            "answer": "B",
+            "threshold": 1
+          }
+        ],
+        "question": "Many features of C were derived from an earlier language called _____."
+      },
+      {
+        "answers": [
+          {
+            "answer": "Integer",
+            "threshold": 0
+          },
+          {
+            "answer": "Integer pointer",
+            "threshold": 1
+          },
+          {
+            "answer": "Error in declaration",
+            "threshold": 0
+          },
+          {
+            "answer": "None of above",
+            "threshold": 0
+          }
+        ],
+        "question": "In the following code, the P2 is Integer Pointer or Integer?\ntypedef int *ptr\nptr p1, p2;"
+      }
+    ]
+  },
+  {
+    "questions2": [
+      {
+        "answers": [
+          {
+            "answer": "27/15 km",
+            "threshold": 0
+          },
+          {
+            "answer": "25/16 km",
+            "threshold": 0
+          },
+          {
+            "answer": "27/16 km",
+            "threshold": 1
+          },
+          {
+            "answer": "35/16 km",
+            "threshold": 0
+          }
+        ],
+        "question": "A man rows 6 km/h in still water. If the river is running at 3km/h, it takes him 45 minutes to row to a place and back? How far is the place?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "2:3",
+            "threshold": 0
+          },
+          {
+            "answer": "3:2",
+            "threshold": 1
+          },
+          {
+            "answer": "1:2",
+            "threshold": 0
+          },
+          {
+            "answer": "1:3",
+            "threshold": 0
+          }
+        ],
+        "question": "If 20% of x = 30% of y then x:y is"
+      },
+      {
+        "answers": [
+          {
+            "answer": "38",
+            "threshold": 0
+          },
+          {
+            "answer": "44",
+            "threshold": 0
+          },
+          {
+            "answer": "48",
+            "threshold": 1
+          },
+          {
+            "answer": "42",
+            "threshold": 0
+          }
+        ],
+        "question": "Find out the third proportion of the term 12 and 24"
+      },
+      {
+        "answers": [
+          {
+            "answer": "18:25:12:18",
+            "threshold": 0
+          },
+          {
+            "answer": "12:18:15:25",
+            "threshold": 1
+          },
+          {
+            "answer": "25:18:15:12",
+            "threshold": 0
+          },
+          {
+            "answer": "12:25:18:25",
+            "threshold": 0
+          }
+        ],
+        "question": "If a:b = 2:3, b:c = 6:5 and c:d = 3:5 then find the value of a:b:c:d"
+      },
+      {
+        "answers": [
+          {
+            "answer": "-33/65",
+            "threshold": 0
+          },
+          {
+            "answer": "65/33",
+            "threshold": 0
+          },
+          {
+            "answer": "33/65",
+            "threshold": 0
+          },
+          {
+            "answer": "-65/33",
+            "threshold": 1
+          }
+        ],
+        "question": "If x:y = 4:7, the value of (x2 + y2) /(x2 – y2) = ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "65:56",
+            "threshold": 0
+          },
+          {
+            "answer": "56:65",
+            "threshold": 1
+          },
+          {
+            "answer": "34:45",
+            "threshold": 0
+          },
+          {
+            "answer": "13:18",
+            "threshold": 0
+          }
+        ],
+        "question": "x:y = 7:4 then (4x+7y) : (7x+4y)"
+      },
+      {
+        "answers": [
+          {
+            "answer": "+4",
+            "threshold": 1
+          },
+          {
+            "answer": "-4",
+            "threshold": 0
+          },
+          {
+            "answer": "-5",
+            "threshold": 0
+          },
+          {
+            "answer": "-3",
+            "threshold": 0
+          }
+        ],
+        "question": "What number should be added or subtracted from each term in the ratio 11:9 so that it become 6:5"
+      },
+      {
+        "answers": [
+          {
+            "answer": "15",
+            "threshold": 0
+          },
+          {
+            "answer": "120",
+            "threshold": 0
+          },
+          {
+            "answer": "60",
+            "threshold": 1
+          },
+          {
+            "answer": "70",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways 5 rings can be worn on 3 fingers?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "120",
+            "threshold": 0
+          },
+          {
+            "answer": "720",
+            "threshold": 1
+          },
+          {
+            "answer": "360",
+            "threshold": 0
+          },
+          {
+            "answer": "60",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways the letters of the word ‘AUTHOR’ be arranged taking all the letters?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "420",
+            "threshold": 1
+          },
+          {
+            "answer": "840",
+            "threshold": 0
+          },
+          {
+            "answer": "5040",
+            "threshold": 0
+          },
+          {
+            "answer": "720",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways the letters of the word ‘MINIMUM’ be arranged taking all the letters?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "2560",
+            "threshold": 0
+          },
+          {
+            "answer": "2880",
+            "threshold": 1
+          },
+          {
+            "answer": "5040",
+            "threshold": 0
+          },
+          {
+            "answer": "2520",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways letters of word ‘INVISIBLE’ be arranged such that all vowels are together?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "720",
+            "threshold": 0
+          },
+          {
+            "answer": "210",
+            "threshold": 1
+          },
+          {
+            "answer": "420",
+            "threshold": 0
+          },
+          {
+            "answer": "360",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways a group of 2 men and 4 women be made out of a total of 4 men and 7 women?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "64",
+            "threshold": 0
+          },
+          {
+            "answer": "216",
+            "threshold": 0
+          },
+          {
+            "answer": "256",
+            "threshold": 1
+          },
+          {
+            "answer": "324",
+            "threshold": 0
+          }
+        ],
+        "question": "How many four digit number can be formed with the digits 5,9,1 and 3 only ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "280",
+            "threshold": 1
+          },
+          {
+            "answer": "360",
+            "threshold": 0
+          },
+          {
+            "answer": "200",
+            "threshold": 0
+          },
+          {
+            "answer": "540",
+            "threshold": 0
+          }
+        ],
+        "question": "Find the number of ways in which 9 students equally divided into three groups ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "6800",
+            "threshold": 0
+          },
+          {
+            "answer": "5600",
+            "threshold": 0
+          },
+          {
+            "answer": "1080",
+            "threshold": 0
+          },
+          {
+            "answer": "9000",
+            "threshold": 1
+          }
+        ],
+        "question": "How many arrangement can be made from the word COMMERCE, such that all the vowels do not come together ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "2400200",
+            "threshold": 0
+          },
+          {
+            "answer": "2419000",
+            "threshold": 0
+          },
+          {
+            "answer": "2419200",
+            "threshold": 1
+          },
+          {
+            "answer": "2419100",
+            "threshold": 0
+          }
+        ],
+        "question": "Three brothers have 5 shirts, 8 pants and 6 ties. In how many ways can they wear them ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "35 C 5",
+            "threshold": 1
+          },
+          {
+            "answer": "36 C 5",
+            "threshold": 0
+          },
+          {
+            "answer": "36 C 6",
+            "threshold": 0
+          },
+          {
+            "answer": "35!/5!",
+            "threshold": 0
+          }
+        ],
+        "question": "Total no of ways in which 30 sweets can be distributed among 6 persons ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "2520",
+            "threshold": 0
+          },
+          {
+            "answer": "5040",
+            "threshold": 0
+          },
+          {
+            "answer": "720",
+            "threshold": 0
+          },
+          {
+            "answer": "360",
+            "threshold": 1
+          }
+        ],
+        "question": "In how many ways can 7 beads be strung into necklace ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "252",
+            "threshold": 1
+          },
+          {
+            "answer": "345",
+            "threshold": 0
+          },
+          {
+            "answer": "648",
+            "threshold": 0
+          },
+          {
+            "answer": "560",
+            "threshold": 0
+          }
+        ],
+        "question": "Find the no of 3 digit numbers such that  atleast one of the digit is 6 (with repetitions) ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "8467200",
+            "threshold": 1
+          },
+          {
+            "answer": "9062700",
+            "threshold": 0
+          },
+          {
+            "answer": "7407000",
+            "threshold": 0
+          },
+          {
+            "answer": "8407200",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways  can 7 girls and 4 boys stand in a row so that no 2 boys are together ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "10!/2!",
+            "threshold": 0
+          },
+          {
+            "answer": "10!",
+            "threshold": 0
+          },
+          {
+            "answer": "11!",
+            "threshold": 0
+          },
+          {
+            "answer": "11!/2!",
+            "threshold": 1
+          }
+        ],
+        "question": "In how many ways the letters of the word PERMUTATION be arranged ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "5 km/h",
+            "threshold": 0
+          },
+          {
+            "answer": "6 km/h",
+            "threshold": 1
+          },
+          {
+            "answer": "6.5 km/h",
+            "threshold": 0
+          },
+          {
+            "answer": "8 km/h",
+            "threshold": 0
+          }
+        ],
+        "question": "A boat goes 40 km upstream in 8 hours and a distance of 49 km downstream in 7 hours. The speed of the boat in still water is"
+      },
+      {
+        "answers": [
+          {
+            "answer": "55%",
+            "threshold": 0
+          },
+          {
+            "answer": "20 1/3%",
+            "threshold": 0
+          },
+          {
+            "answer": "49 2/3%",
+            "threshold": 0
+          },
+          {
+            "answer": "53 11/13%",
+            "threshold": 1
+          }
+        ],
+        "question": "A shopkeeper sells his gods at its CP only. But he uses 650 g weight at the place of 1000 g weight for a kg. What is his net profit percentage?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "745 1/3 g",
+            "threshold": 0
+          },
+          {
+            "answer": "750 g",
+            "threshold": 0
+          },
+          {
+            "answer": "714 2/7 g",
+            "threshold": 1
+          },
+          {
+            "answer": "800 g",
+            "threshold": 0
+          }
+        ],
+        "question": "A fruit vendor professes to sell fruits at the cost price, but uses false weights. He gains 40% in this manner. What weight does he substitute for one kilogram? "
+      },
+      {
+        "answers": [
+          {
+            "answer": "12 1/2%",
+            "threshold": 1
+          },
+          {
+            "answer": "7 1/2%",
+            "threshold": 0
+          },
+          {
+            "answer": "17 1/2%",
+            "threshold": 0
+          },
+          {
+            "answer": "25%",
+            "threshold": 0
+          }
+        ],
+        "question": "A certain sum is interested at compound. The interest accrued in the first two years is Rs. 544 and that in the first three years is Rs. 868. Find the rate per cent. "
+      },{
+        "answers": [
+          {
+            "answer": "400",
+            "threshold": 1
+          },
+          {
+            "answer": "800",
+            "threshold": 0
+          },
+          {
+            "answer": "777",
+            "threshold": 0
+          },
+          {
+            "answer": "111",
+            "threshold": 0
+          }
+        ],
+        "question": "The train traveling at 50 km/h overtakes a motorbike traveling at 32 km/h in 80 s. What is the length of the train in meters?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "10 hrs",
+            "threshold": 0
+          },
+          {
+            "answer": "12 hrs",
+            "threshold": 1
+          },
+          {
+            "answer": "8 hrs",
+            "threshold": 0
+          },
+          {
+            "answer": "16 hrs",
+            "threshold": 0
+          }
+        ],
+        "question": "A train running at 7/11 of its own speed reached a place in 33 hrs. How much time could be saved if the train runs at its own speed?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "1/169",
+            "threshold": 0
+          },
+          {
+            "answer": "1/221",
+            "threshold": 1
+          },
+          {
+            "answer": "1/338",
+            "threshold": 0
+          },
+          {
+            "answer": "4/663",
+            "threshold": 0
+          }
+        ],
+        "question": "Anil placed a deck of 52 cards. If you pick two cards what is the probability that both are aces?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "15/30",
+            "threshold": 0
+          },
+          {
+            "answer": "16/30",
+            "threshold": 0
+          },
+          {
+            "answer": "17/30",
+            "threshold": 1
+          },
+          {
+            "answer": "18/30",
+            "threshold": 0
+          }
+        ],
+        "question": "Tickets numbered from 1 to 40 are in a bag and one ticket is drawn at random. What is the probability that ticket drawn is a multiple of 3 or 7?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "0.2304",
+            "threshold": 1
+          },
+          {
+            "answer": "0.2704",
+            "threshold": 0
+          },
+          {
+            "answer": "0.2496",
+            "threshold": 0
+          },
+          {
+            "answer": "0.7696",
+            "threshold": 0
+          }
+        ],
+        "question": "Born babies to be boy is having 0.52 probability, and to be girl is 0.48. If you have two children, then what is the probability that they are both girls?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "Rs.1435",
+            "threshold": 0
+          },
+          {
+            "answer": "Rs.1500",
+            "threshold": 1
+          },
+          {
+            "answer": "Rs.1538",
+            "threshold": 0
+          },
+          {
+            "answer": "Rs.1580",
+            "threshold": 0
+          }
+        ],
+        "question": "P and Q invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and P’s share is Rs. 855, the total profit is:"
+      },
+      {
+        "answers": [
+          {
+            "answer": "Rs.423",
+            "threshold": 0
+          },
+          {
+            "answer": "Rs.343",
+            "threshold": 1
+          },
+          {
+            "answer": "Rs.356",
+            "threshold": 0
+          },
+          {
+            "answer": "Rs.387",
+            "threshold": 0
+          }
+        ],
+        "question": "Rs.1200 is divided among A,B,C so that A receives half so much as B and B half as much as C. Then B’s share is"
+      },
+      {
+        "answers": [
+          {
+            "answer": "Rs.3160",
+            "threshold": 0
+          },
+          {
+            "answer": "Rs.3215",
+            "threshold": 0
+          },
+          {
+            "answer": "Rs.3418",
+            "threshold": 1
+          },
+          {
+            "answer": "Rs.3525",
+            "threshold": 0
+          }
+        ],
+        "question": "A and B invest in a business in the ratio 3 : 7 . If 10 % of the total profit goes to charity and A’s share is Rs. 923, the profit is"
+      },
+      {
+        "answers": [
+          {
+            "answer": "6:7",
+            "threshold": 0
+          },
+          {
+            "answer": "7:8",
+            "threshold": 1
+          },
+          {
+            "answer": "8:7",
+            "threshold": 0
+          },
+          {
+            "answer": "7:5",
+            "threshold": 0
+          }
+        ],
+        "question": "Two numbers are respectively 40% and  60% more than than the third number. The ratio of the two number is"
+      },
+      {
+        "answers": [
+          {
+            "answer": "500",
+            "threshold": 0
+          },
+          {
+            "answer": "700",
+            "threshold": 0
+          },
+          {
+            "answer": "1000",
+            "threshold": 1
+          },
+          {
+            "answer": "1200",
+            "threshold": 0
+          }
+        ],
+        "question": "A sum of money is to be distributed among P , Q , R and S in the proportion 2:5:6:7, If R get Rs.500 more than S,what is P’s share ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "5:7:2",
+            "threshold": 0
+          },
+          {
+            "answer": "3:2:4",
+            "threshold": 0
+          },
+          {
+            "answer": "1:2:3",
+            "threshold": 0
+          },
+          {
+            "answer": "3:2:1",
+            "threshold": 1
+          }
+        ],
+        "question": "The speed of P, Q and R are in the ratio of 2:3:6, what is the ratio of time taken by each one of them for the same distance ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "216, 144, 27",
+            "threshold": 0
+          },
+          {
+            "answer": "108, 144, 216",
+            "threshold": 1
+          },
+          {
+            "answer": "27, 72, 216",
+            "threshold": 0
+          },
+          {
+            "answer": "120, 35, 108",
+            "threshold": 0
+          }
+        ],
+        "question": "A sum of Rs 315 consists of 25 paise, 50 paise and 1 Re coins in the ratio 3 : 4 :6. What is the number of each kind of coin respectively?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "16",
+            "threshold": 0
+          },
+          {
+            "answer": "4",
+            "threshold": 0
+          },
+          {
+            "answer": "10",
+            "threshold": 1
+          },
+          {
+            "answer": "2",
+            "threshold": 0
+          }
+        ],
+        "question": "Two numbers are in the ratio of 5:8 .If 4 is subtracted from each then the ratio become 1:2.The small number is"
+      },
+      {
+        "answers": [
+          {
+            "answer": "15",
+            "threshold": 0
+          },
+          {
+            "answer": "20",
+            "threshold": 0
+          },
+          {
+            "answer": "25",
+            "threshold": 0
+          },
+          {
+            "answer": "30",
+            "threshold": 1
+          }
+        ],
+        "question": "The sum of present age of 2 persons is 100yrs.Before 5 years the ratio of their ages is 5:13.Find the age of younger person"
+      },
+      {
+        "answers": [
+          {
+            "answer": "89",
+            "threshold": 0
+          },
+          {
+            "answer": "56",
+            "threshold": 0
+          },
+          {
+            "answer": "64",
+            "threshold": 1
+          },
+          {
+            "answer": "72",
+            "threshold": 0
+          }
+        ],
+        "question": "How many numbers can be formed with the digits 1, 7, 2, 5 without repetition ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "210",
+            "threshold": 1
+          },
+          {
+            "answer": "320",
+            "threshold": 0
+          },
+          {
+            "answer": "716",
+            "threshold": 0
+          },
+          {
+            "answer": "5040",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways can 4 books be selected out of 10 books on different subjects ?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "120280",
+            "threshold": 0
+          },
+          {
+            "answer": "453600",
+            "threshold": 1
+          },
+          {
+            "answer": "360340",
+            "threshold": 0
+          },
+          {
+            "answer": "3628800",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways the letters of the word ‘ALLIGATION’ be arranged taking all the letters?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "60",
+            "threshold": 1
+          },
+          {
+            "answer": "30",
+            "threshold": 0
+          },
+          {
+            "answer": "90",
+            "threshold": 0
+          },
+          {
+            "answer": "70",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways all the letters of the word ‘MINIMUM’ be arranged such that all vowels are together?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "720",
+            "threshold": 0
+          },
+          {
+            "answer": "140",
+            "threshold": 1
+          },
+          {
+            "answer": "120",
+            "threshold": 0
+          },
+          {
+            "answer": "360",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways a group of 4 men and 3 women be made out of a total of 8 men and 5 women?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "256",
+            "threshold": 0
+          },
+          {
+            "answer": "225",
+            "threshold": 1
+          },
+          {
+            "answer": "198",
+            "threshold": 0
+          },
+          {
+            "answer": "252",
+            "threshold": 0
+          }
+        ],
+        "question": "How many 3 digit numbers are divisible by 4?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "225",
+            "threshold": 1
+          },
+          {
+            "answer": "240",
+            "threshold": 0
+          },
+          {
+            "answer": "120",
+            "threshold": 0
+          },
+          {
+            "answer": "160",
+            "threshold": 0
+          }
+        ],
+        "question": "How many 3 digits numbers have exactly one digit 2 in the number?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "70",
+            "threshold": 0
+          },
+          {
+            "answer": "96",
+            "threshold": 1
+          },
+          {
+            "answer": "84",
+            "threshold": 0
+          },
+          {
+            "answer": "48",
+            "threshold": 0
+          }
+        ],
+        "question": "How many 4 digit words can be made from the digits 7, 8, 5, 0, and 4 without repetition?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "348",
+            "threshold": 0
+          },
+          {
+            "answer": "284",
+            "threshold": 0
+          },
+          {
+            "answer": "224",
+            "threshold": 0
+          },
+          {
+            "answer": "336",
+            "threshold": 1
+          }
+        ],
+        "question": "In how many ways 8 students can be given 3 prizes such that no student receives more than 1 prize?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "2780",
+            "threshold": 0
+          },
+          {
+            "answer": "2880",
+            "threshold": 1
+          },
+          {
+            "answer": "2800",
+            "threshold": 0
+          },
+          {
+            "answer": "2980",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many ways can 5 boys and 4 girls can be seated in a row so that they are in alternate position."
+      },
+      {
+        "answers": [
+          {
+            "answer": "512",
+            "threshold": 1
+          },
+          {
+            "answer": "343",
+            "threshold": 0
+          },
+          {
+            "answer": "256",
+            "threshold": 0
+          },
+          {
+            "answer": "526",
+            "threshold": 0
+          }
+        ],
+        "question": "In how many 8 prizes can be given to 3 boys, if all boys are equally eligible of getting the prize."
+      }
+    ]
+  },
+  {
+    "questions3": [
+      {
+        "answers": [
+          {
+            "answer": "Largest railway station",
+            "threshold": 1
+          },
+          {
+            "answer": "Highest railway station",
+            "threshold": 0
+          },
+          {
+            "answer": "Longest railway station",
+            "threshold": 0
+          },
+          {
+            "answer": "None of the above",
+            "threshold": 0
+          }
+        ],
+        "question": "Grand Central Terminal, Park Avenue, New York is the world's"
+      },
+      {
+        "answers": [
+          {
+            "answer": "Behavior of human beings",
+            "threshold": 0
+          },
+          {
+            "answer": "Insects",
+            "threshold": 1
+          },
+          {
+            "answer": "The origin and history of technical and scientific terms",
+            "threshold": 0
+          },
+          {
+            "answer": "The formation of rocks",
+            "threshold": 0
+          }
+        ],
+        "question": "Entomology is the science that studies"
+      },
+      {
+        "answers": [
+          {
+            "answer": "Asia",
+            "threshold": 0
+          },
+          {
+            "answer": "Africa",
+            "threshold": 1
+          },
+          {
+            "answer": "Europe",
+            "threshold": 0
+          },
+          {
+            "answer": "Australia",
+            "threshold": 0
+          }
+        ],
+        "question": "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of"
+      }
+    ]
+  }
+]
