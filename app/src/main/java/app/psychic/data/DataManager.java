@@ -3,6 +3,8 @@ package app.psychic.data;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import app.psychic.App;
+
 public class DataManager {
 
     private static final String PREFERENCES = "app.psychic.data";
@@ -26,6 +28,14 @@ public class DataManager {
     }
 
     public void setIsLogin(boolean flag) {
+        if (!flag) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    App.getDatabase().clearAllTables();
+                }
+            }).start();
+        }
         SharedPreferences.Editor editor = preferences.edit();
         editor.putBoolean(IS_LOGIN, flag);
         editor.apply();
