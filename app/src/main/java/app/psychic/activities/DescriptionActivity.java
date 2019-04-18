@@ -37,13 +37,13 @@ import app.psychic.models.Question;
 public class DescriptionActivity extends AppCompatActivity {
 
     ActivityDescriptionBinding binding;
-    List<Question> questions1 = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_description);
 
+        binding.welcome.setText(getString(R.string.description, DataManager.newInstance(this).getName()));
 
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,10 +91,5 @@ public class DescriptionActivity extends AppCompatActivity {
                     }
                 })
                 .create().show();
-    }
-
-    public static ArrayList<Question> fromStringToQuestions(JsonElement value) {
-        Type listType = new TypeToken<ArrayList<Question>>() {}.getType();
-        return new Gson().fromJson(value, listType);
     }
 }
