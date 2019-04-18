@@ -28,6 +28,7 @@ public class LoginActivity extends AppCompatActivity {
 
     ActivityLoginBinding binding;
     private ProgressDialog dialog;
+    private int i = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,14 +60,19 @@ public class LoginActivity extends AppCompatActivity {
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             Map<String, User> map = dataSnapshot.getValue(genericTypeIndicator);
                             hideLoading();
+                            i = 0;
                             if (map != null) {
                                 for (User user : map.values()) {
                                     if (user.getEmail().equals(binding.email.getText().toString()) && user.getPassword().equals(binding.password.getText().toString())) {
                                         DataManager.newInstance(LoginActivity.this).setIsLogin(true);
+                                        DataManager.newInstance(LoginActivity.this).setName(user.getName());
                                         loginSuccess();
                                     } else {
-                                        showMessage("Invalid login credentials");
+                                        i++;
                                     }
+                                }
+                                if (i == map.values().size()) {
+                                    showMessage("Invalid login credentials");
                                 }
                             } else {
                                 showMessage("Invalid login credentials");
