@@ -16,7 +16,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.GenericTypeIndicator;
 import com.google.firebase.database.ValueEventListener;
-import com.google.gson.Gson;
 import com.yuyakaido.android.cardstackview.CardStackLayoutManager;
 import com.yuyakaido.android.cardstackview.CardStackListener;
 import com.yuyakaido.android.cardstackview.Direction;
@@ -199,8 +198,7 @@ public class MainActivity extends AppCompatActivity implements CardStackListener
                                 yourStringArray.get(i).setExamId("" + examId);
                             }
                             App.getDatabase().questionDao().insertQuestions(yourStringArray.subList(result, result + 20));
-                        }
-                        else {
+                        } else {
                             for (int i = 0; i < yourStringArray.size(); i++) {
                                 yourStringArray.get(i).setExamId("" + examId);
                             }
@@ -221,6 +219,15 @@ public class MainActivity extends AppCompatActivity implements CardStackListener
             }
 
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (overview) {
+            this.finish();
+        } else {
+            super.onBackPressed();
+        }
     }
 
     public void submitAnswer(int position, Answer answer) {
@@ -303,8 +310,6 @@ public class MainActivity extends AppCompatActivity implements CardStackListener
 
             if (overview) {
                 Intent intent = new Intent(MainActivity.this, ScoreActivity.class);
-                intent.putExtra("type", getIntent().getStringExtra("type"));
-                intent.putExtra("score", score);
                 startActivity(intent);
                 finish();
             } else {
@@ -312,8 +317,6 @@ public class MainActivity extends AppCompatActivity implements CardStackListener
                     @Override
                     public void run() {
                         Intent intent = new Intent(MainActivity.this, ScoreActivity.class);
-                        intent.putExtra("type", getIntent().getStringExtra("type"));
-                        intent.putExtra("score", score);
                         startActivity(intent);
                         finish();
                     }
