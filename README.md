@@ -84,6 +84,7 @@ Installation of this app is much more easier with just few steps
 - https://firebase.google.com/docs/android/setup
 - https://code.tutsplus.com/tutorials/android-ui-workshop-build-an-interactive-quiz-app--mobile-14208
 - https://developer.android.com/training/basics/firstapp/building-ui
+- http://www.codebind.com/android-tutorials-and-examples/android-studio-android-login-screen-example/
 
 # FlowChat:
  ![](https://github.com/mounikrishna/QuizApp/blob/master/androidFlowchat.jpeg)
