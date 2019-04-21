@@ -1,15 +1,55 @@
-# QuizApp
+# App Name: QUIZ APP
 
-# Group Members:
+# App Logo:
+![app icon](https://raw.githubusercontent.com/mounikrishna/QuizApp/master/appicon.png)
+
+# Authors:
 
 1. Keerthi Sree kukunoor
 2. Mouni Krishna Atluri
 3. Venkata Sai Krishna Dasari
 4. Sachin Setty
 
-# Project Description:
-There are various users who are taking the quizzes in various fields to improve there knowledge. We found that there are various websites which provides quizzes but there are no applications that provides the quizzes. This application can provide the various quizzes so that they can take the quizzes whenever the user wants.   
+# Contributions:
 
+1. Keerthi Sree kukunoor - works with main functionality of the application
+2. Mouni Krishna Atluri - works with database, database connectivity and backend functionality
+3. Venkata Sai Krishna Dasari - works with user Interface and main functionality
+4. Sachin Setty - works with User Interface(front end developer)
+
+# Project Description:
+
+There are various users who are taking the quizzes in various fields to improve there knowledge. We found that there are lot of  websites which provides quizzes but there are no applications for quizzes. so we come up with an idea in developing an application that which can provide the various quizzes. By installing our application the users can be able to take the quizzes when ever they wants. This applications also provides the lifetime statistics of the particular user.  
+
+# Supported Version:
+
+This appliaction is supported with android version 5.1 or above 
+
+# Installation Steps:
+
+Installation of this app is much more easier with just few steps
+1. The User can download the apk file of the Quiz App.
+2. By clicking on the apk file, It install's the app in your android mobile.
+3. Once the App gets installed the user can click on the App icon to open it.
+4. Later on, the user can register into the app and improve their knowledge by taking quizzes.
+
+# Requirements:
+
+1. A Mobile with Android Operating System.
+2. Minimum RAM : 1 GB
+3. Minimum Internal Memory : 8GB
+4. Internet Connectivity : yes
+5. Login : Required
+
+# Test Credentials:
+
+1. First time user must register into the app for free.
+2. The user must login into the app every time they use.
+3. The user can login with the registered gmail and a valid password.
+
+# Components Used:
+
+- Uses Firebase API
 
 # Activities involved:
 
@@ -40,13 +80,19 @@ There are various users who are taking the quizzes in various fields to improve 
 
 ![8](https://github.com/mounikrishna/QuizApp/blob/master/App%20Screenshots/StatisticsPage.JPG)
 
-# Components Used:
+# Sources Used:
+- https://firebase.google.com/docs/android/setup
+- https://code.tutsplus.com/tutorials/android-ui-workshop-build-an-interactive-quiz-app--mobile-14208
+- https://developer.android.com/training/basics/firstapp/building-ui
 
-1. Uses Firebase API
-2. Uses SqlLite
-
- # FlowChat:
+# FlowChat:
  ![](https://github.com/mounikrishna/QuizApp/blob/master/androidFlowchat.jpeg)
+ 
+ 
+ 
+ 
+ 
+
 
 
 
