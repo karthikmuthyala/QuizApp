@@ -23,7 +23,9 @@ There are various users who are taking the quizzes in various fields to improve 
 
 # Supported Version:
 
-This appliaction is supported with android version 5.1 or above 
+- This application is supported with minimum sdk version: API 21: Android 5.0(Lollipop) or above
+- Gradle version : 4.10.1
+- Android plugin version: 3.3.1
 
 # Installation Steps:
 
@@ -86,7 +88,7 @@ Installation of this app is much more easier with just few steps
 - https://developer.android.com/training/basics/firstapp/building-ui
 - http://www.codebind.com/android-tutorials-and-examples/android-studio-android-login-screen-example/
 
-# FlowChat:
+# FlowChart:
  ![](https://github.com/mounikrishna/QuizApp/blob/master/androidFlowchat.jpeg)
  
  
