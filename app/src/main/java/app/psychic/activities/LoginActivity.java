@@ -53,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
         binding.login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showLoading("Logging in..");
+              //  showLoading("Logging in..");
                 if (validate()) {
                     myRef.addValueEventListener(new ValueEventListener() {
                         @Override
